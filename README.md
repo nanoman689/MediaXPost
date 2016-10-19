@@ -11,6 +11,7 @@ Intended to allow media to be posted on multiple media (e.g. art/writing/audio/s
 
 ## Premium Features ( $2.00 upgrade )
  * Live Stream Announcement
+ * Scheduled Posts
  * Media Library Migration Tools
 
 ## Network Capabilities
