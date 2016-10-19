@@ -33,10 +33,10 @@ Intended to allow media to be posted on multiple media (e.g. art/writing/audio/s
 | YouTube   | Y | N | * | Y | - | - | - | - | ?
 | Vimeo     | Y | N | * | Y | - | - | - | - | ?
 
- 1: Supports allowing this content to be shared by being embedded in another site.
- 2: Supports embedded content from other sites.
- 3: Supports external links to other content.
- ★: Media Sites available are limited in scope
+ * 1 - Supports allowing this content to be shared by being embedded in another site.
+ * 2 - Supports embedded content from other sites.
+ * 3 - Supports external links to other content.
+ * ★ - Media Sites available are limited in scope
 
 ## Server Side Support
  * Database to Manage
