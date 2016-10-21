@@ -20,6 +20,7 @@ Intended to allow media to be posted on multiple media (e.g. art/writing/audio/s
  * +Plus Features
  * Scheduled Posts
  * Media Library Import/Migration/Management Tools
+  * Requires downloading and reading submission details
 
 ## Architecture
 ### Client Side
