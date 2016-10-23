@@ -1,10 +1,18 @@
+/*!
+ * MediaXPost v2016.1023 -
+ * https://github.com/chronosis/MediaXPost
+ * Copyright (C) 2016 Jay Reardon <jayreardon@gmail.com>
+ * All Rights Reserved
+ */
+var w = 1000;
+var h = 800;
 var windowOptions = {
-	id: "mediaxpost",
+	id: 'mediaxpost',
 	outerBounds: {
-		width: 800,
-		height: 500,
-		top: Math.floor((window.screen.height - 500) / 2),
-		left: Math.floor((window.screen.width - 800) / 2),
+		width: w,
+		height: h,
+		left: Math.floor((window.screen.width - w) / 2),
+		top: Math.floor((window.screen.height - h) / 2),
 	},
 	focused: true,
 	visibleOnAllWorkspaces: true,
@@ -12,6 +20,10 @@ var windowOptions = {
 	alphaEnabled: true,
 	hidden: false,
 	resizable: true,
-	state: "normal"
+	state: 'normal',
+	frame: 'chrome'
 }
-window.chrome.app.window.create("index.html");
+
+chrome.app.runtime.onLaunched.addListener(function (launchData) {
+  window.chrome.app.window.create('index.html', windowOptions)
+})
