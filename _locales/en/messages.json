@@ -1,0 +1,8 @@
+{
+	"mediaxpost_short_name": {
+		 "message": "MediaXPost"
+	},
+	"mediaxpost_description": {
+		 "message": "Intended to allow media to be posted on multiple media (e.g. art/writing/audio/social) networks at once with ease."
+	}
+}
