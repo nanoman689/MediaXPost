@@ -2,7 +2,8 @@
 Intended to allow media to be posted on multiple media (e.g. art/writing/audio/social) networks at once with ease.
 
 ## Free Features
- * Chrome / FireFox Extension
+ * Chrome Extension (https://developer.chrome.com/extensions/manifest)
+ * FireFox Extension (https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json)
  * Drag and Drop Files from local media (https://css-tricks.com/drag-and-drop-file-uploading/)
  * Media location -- Local File, Google Drive, DropBox
  * Social Networks (Link to Post from a Network) -- Twitter, Tumblr

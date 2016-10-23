@@ -1,8 +1,11 @@
 {
-	"background": {
-		"scripts": [ "startwindow.js" ]
+	"app": {
+		"background": {
+			"scripts": [ "startwindow.js" ]
+		}
 	},
 	"default_locale": "en",
+	"name": "MediaXPost",
 	"description": "__MSG_MEDIAXPOST_DESCRIPTION__",
 	"externally_connectable": {
 	  "ids": [ "jkfalddjhnnkcmcalaeihnchfcdfhgmi" ],
@@ -12,8 +15,6 @@
 	},
 	"manifest_version": 2,
 	"minimum_chrome_version": "44.0.0.0",
-	"name": "MediaXPost",
-	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-	"permissions": [ "alarms", "alwaysOnTopWindows", "app.window.alpha", "app.window.shape", "audioCapture", "background", "browser", "identity", "idle", "notifications", "storage", "system.display", "videoCapture", "webview", "*://*.furrygaming.net/*" ],
+	"permissions": [ "alarms", "alwaysOnTopWindows", "app.window.shape", "audioCapture", "background", "browser", "identity", "idle", "notifications", "storage", "system.display", "videoCapture", "webview", "*://*.furrygaming.net/*" ],
 	"version": "2016.1023"
 }
