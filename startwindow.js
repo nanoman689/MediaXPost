@@ -17,7 +17,6 @@ var windowOptions = {
 	focused: true,
 	visibleOnAllWorkspaces: true,
 	alwaysOnTop: false,
-	alphaEnabled: true,
 	hidden: false,
 	resizable: true,
 	state: 'normal',
@@ -25,5 +24,5 @@ var windowOptions = {
 }
 
 chrome.app.runtime.onLaunched.addListener(function (launchData) {
-  window.chrome.app.window.create('index.html', windowOptions)
+  chrome.app.window.create('index.html', windowOptions)
 })
