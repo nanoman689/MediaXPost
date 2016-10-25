@@ -24,8 +24,15 @@ Intended to allow media to be posted on multiple media (e.g. art/writing/audio/s
   * Requires downloading and reading submission details
 
 ## Architecture
+
+### Tools
+ * Mock-up Tool -- http://pencil.evolus.vn/
+ * Design Model -- Telegram Web App -- https://github.com/zhukov/webogram
+ * Design Model -- https://www.sitepoint.com/chrome-extension-angular-2/
+ * Design Model -- https://github.com/mgechev/angular-seed/blob/master/package.json
+
 ### Client Side
- * Browser Extension -- Modal Window App with Closure
+ * Browser Extension -- Modal Window App (https://developer.chrome.com/apps/app_window)
  * Bootstrap.js (http://getbootstrap.com/javascript/)
  * Angular2 (https://angular.io/docs/ts/latest/quickstart.html) -- This is to allow Cordova mobile apps as well.
 
