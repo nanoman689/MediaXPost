@@ -1,6 +1,8 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { platformBrowser } from '@angular/platform-browser';
 
-import { AppModule } from './app.module';
+// App module factory created from offline (AoT) compiler
+import { AppModuleNgFactory } from './app.module.ngfactory';
 
-const platform = platformBrowserDynamic();
-platform.bootstrapModule(AppModule);
+const platform = platformBrowser();
+platform.bootstrapModuleFactory(AppModuleNgFactory);
