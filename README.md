@@ -27,6 +27,7 @@ Intended to allow media to be posted on multiple media (e.g. art/writing/audio/s
 
 ### Tools
  * Mock-up Tool -- http://pencil.evolus.vn/
+ * Angular2 Command Line -- https://cli.angular.io/ (with AOT compiling)
  * Design Model -- Telegram Web App -- https://github.com/zhukov/webogram
  * Design Model -- https://www.sitepoint.com/chrome-extension-angular-2/
  * Design Model -- https://github.com/mgechev/angular-seed/blob/master/package.json
