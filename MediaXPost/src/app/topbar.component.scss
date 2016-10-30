@@ -5,6 +5,14 @@ $shadow_color: rgba(60, 75, 87, 0.27);
 $border_color: rgba(102, 76, 0, 0.2);
 $border_edge_color: #d0c3b5;
 
+@mixin transform_rotate($angle) {
+  -webkit-transform: rotate($angle);
+  -moz-transform: rotate($angle);
+  -o-transform: rotate($angle);
+  -ms-transform: rotate($angle);
+  transform: rotate($angle);
+}
+
 .mxp_topbar_split {
     margin: 0 auto;
     height: 48px;
@@ -80,6 +88,11 @@ $border_edge_color: #d0c3b5;
     margin: 0px 40px 0px 0px;
 }
 
+.mxp_topbar_menu_dropdown .icon-cancel {
+    vertical-align: top;
+    margin: 7px 40px 0px 0px;
+}
+
 .icon-hamburger-wrap {
     display: inline-block;
     width: 18px;
@@ -109,11 +122,13 @@ $border_edge_color: #d0c3b5;
 }
 
 .icon-cancel {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -9px;
-    margin-top: -1px
+    /*position: absolute;*/
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    transform: translate3d(0px, 0px, 0px);
+    /*top: 50%;
+    left: 50%;*/
 }
 
 .icon-cancel .icon-bar {
@@ -121,21 +136,22 @@ $border_edge_color: #d0c3b5;
     width: 18px;
     height: 2px;
     background: #FFF;
-    transform-origin: 50% 50%
+    /*transform-origin: 50% 50%;*/
 }
 
 .icon-cancel .icon-bar:first-child {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg)
+  @include transform_rotate(-45deg);
+  margin-bottom: -2px;
+  transition: transform 0.1s ease-in;
+}
+
+.icon-cancel .icon-bar:nth-child(2) {
+  background: rgba(255,255,255,0);
+  transition: transform 0.1s ease-in;
 }
 
 .icon-cancel .icon-bar:last-child {
-    -webkit-transform: translate3d(0,-2px,0) rotate(45deg);
-    -moz-transform: translate3d(0,-2px,0) rotate(45deg);
-    -o-transform: translate3d(0,-2px,0) rotate(45deg);
-    -ms-transform: translate3d(0,-2px,0) rotate(45deg);
-    transform: translate3d(0,-2px,0) rotate(45deg)
+  @include transform_rotate(45deg);
+  margin-top: -2px;
+  transition: transform 0.1s ease-in;
 }

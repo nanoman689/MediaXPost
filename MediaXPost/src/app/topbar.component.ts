@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 
 export class TopBarComponent {
-  title = 'MediaXPost';
+  dropdownOpen: boolean = false;
+  title:string = 'MediaXPost';
 }
