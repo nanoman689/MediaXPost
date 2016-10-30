@@ -1,6 +1,4 @@
-$bg_empahsis_color: #C90;
-$bg_empahsis_hovor_color: darken($bg_empahsis_color, 5%);
-$statusbar_height: 25px;
+@import 'globals';
 
 .mxp_statusbar_wrap {
   position: absolute;

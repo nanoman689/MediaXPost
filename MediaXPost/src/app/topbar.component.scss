@@ -1,9 +1,4 @@
-$bg_empahsis_color: #C90;
-$bg_empahsis_hovor_color: darken($bg_empahsis_color, 5%);
-$bg_emphasis_light_color: rgb(227, 207, 185);
-$shadow_color: rgba(60, 75, 87, 0.27);
-$border_color: rgba(102, 76, 0, 0.2);
-$border_edge_color: #d0c3b5;
+@import 'globals';
 
 @mixin transform_rotate($angle) {
   -webkit-transform: rotate($angle);
