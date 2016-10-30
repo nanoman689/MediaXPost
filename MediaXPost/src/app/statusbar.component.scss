@@ -1,0 +1,16 @@
+$bg_empahsis_color: #C90;
+$bg_empahsis_hovor_color: darken($bg_empahsis_color, 5%);
+$statusbar_height: 25px;
+
+.mxp_statusbar_wrap {
+  position: absolute;
+  height: $statusbar_height;
+  bottom: 0;
+  width: 100%;
+  background: $bg_empahsis_hovor_color;
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  font-size: 9px;
+  padding: 4px 10px;
+}

@@ -1,0 +1,32 @@
+/* Master Styles */
+$fontstack: 'Open Sans','Lucida Grande','Lucida Sans Unicode',Arial,Helvetica,Verdana,sans-serif;
+$fg_font_color: #fff;
+$bg_empahsis_color: #C90;
+
+body {
+    color: #000;
+    background: 0 0;
+    font: 12px/18px $fontstack;
+    overflow: hidden;
+    margin: 0 !important;
+}
+
+.noselect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    color: $fg_font_color;
+    padding: 17px 20px 15px 22px;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    vertical-align: top;
+}

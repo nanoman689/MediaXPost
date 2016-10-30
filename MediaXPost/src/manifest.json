@@ -32,6 +32,21 @@
 		"storage",
 		"system.display",
 		"webview",
-		"*://*.furrygaming.net/*"
+		"*://*.dropbox.com/*",
+		"*://*.google.com/*",
+		"*://*.tumblr.com/*",
+		"*://*.twitter.com/*",
+		"*://*.mediaxpost.io/*",
+		"*://*.furaffinity.net/*",
+		"*://*.inkbunny.net/*",
+		"*://*.sofurry.com/*",
+		"*://*.weasyl.com/*",
+		"*://*.deviantart.com/*",
+		"*://*.calameo.com/*",
+		"*://*.soundcloud.com/*",
+		"*://*.bandcamp.com/*",
+		"*://*.mixcloud.com/*",
+		"*://*.8tracks.com/*",
+		"*://*.vimeo.com/*"		
 	]
 }

@@ -1,0 +1,15 @@
+$bg_emphasis_light_color: #fffffc;
+$border_color: rgba(102, 76, 0, 0.2);
+$border_edge_color: #d0c3b5;
+$statusbar_height: 25px;
+
+.mxp_metadata_editor_wrap {
+  /*position: absolute;*/
+  float: left;
+  width: 69%;
+  height: 100%;
+  white-space: nowrap;
+  border-left: 1px solid $border_edge_color;
+  background: $bg_emphasis_light_color;
+  bottom: $statusbar_height;
+}
