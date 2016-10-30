@@ -10,6 +10,8 @@ import { SiteSelectorComponent } from './site-selector.component';
 import { MetaDataEditorComponent } from './metadata-editor.component';
 import { StatusBarComponent } from './statusbar.component';
 
+import { MXPUser } from './mxp-user';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,4 +29,6 @@ import { StatusBarComponent } from './statusbar.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  user: MXPUser;
+}
